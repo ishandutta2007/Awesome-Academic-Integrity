@@ -6,6 +6,12 @@
 
 ## 🔍 Similar Projects to Academic Integrity Platforms
 
+Welcome to the **Awesome Academic Integrity** repository—a comprehensive, curated directory of tools, platforms, and libraries for plagiarism detection, code similarity checking, and originality verification. Whether you are an educator preventing academic dishonesty, a student looking to check your work, or a researcher exploring text similarity, this guide covers both commercial SaaS products and open-source equivalents.
+
+### 🏷️ Keywords & Quick Links
+`plagiarism checker` • `code similarity detector` • `academic integrity` • `AI content detector` • `source code plagiarism` • `originality checking` • `JPlag` • `Dolos` • `Turnitin alternatives`
+
+
 **Academic Integrity Platforms** (plagiarism detection / originality checking tools) help educators, publishers, and institutions detect copied or unoriginal content in student papers, research articles, and code submissions. Leading commercial tools include Turnitin, Ouriginal, Copyleaks, SafeAssign, Compilatio, Unicheck, PlagScan, StrikePlagiarism, Urkund, and Originality.ai.
 
 Below is a **curated list** of notable platforms and their open-source equivalents. Fully featured commercial systems with massive proprietary academic databases are difficult to replicate in pure open source. The strongest open-source coverage exists for **source-code plagiarism detection**, while text-based tools rely on local corpora, web search, or open academic indexes.
