@@ -25,12 +25,13 @@ Below is a **curated list** of notable platforms and their open-source equivalen
 ## 🔓 Open-Source Software
 
 ### Source Code Plagiarism Detection (Strongest Open-Source Area)
-- **[JPlag](https://github.com/jplag/JPlag)** — State-of-the-art open-source tool for detecting source code plagiarism and collusion. Supports many languages (Java, C/C++, Python, JavaScript, TypeScript, Go, Kotlin, etc.). Fully local processing — no code is uploaded.
-- **[Dolos](https://github.com/dodona-edu/dolos)** — Modern open-source source code plagiarism detector from Ghent University. Offers an intuitive web interface, interactive visualizations, and support for many programming languages (MIT).
-- **[copydetect](https://github.com/blingenf/copydetect)** — Lightweight Python tool based on the Winnowing algorithm (same family as Stanford MOSS). Generates HTML similarity reports.
-- **[jieplag](https://github.com/thu-cs-lab/jieplag)** — High-performance plagiarism detection tool written in Rust, inspired by Stanford MOSS. Supports multiple languages.
-- **[AC2](https://github.com/manuel-freire/ac2)** — Source code plagiarism detection tool with multiple similarity algorithms and strong visualization features.
+- **[JPlag](https://github.com/jplag/JPlag)** [![GitHub stars](https://img.shields.io/github/stars/jplag/JPlag?style=social&color=white)](https://github.com/jplag/JPlag/stargazers) — State-of-the-art open-source tool for detecting source code plagiarism and collusion. Supports many languages (Java, C/C++, Python, JavaScript, TypeScript, Go, Kotlin, etc.). Fully local processing — no code is uploaded.
+- **[Dolos](https://github.com/dodona-edu/dolos)** [![GitHub stars](https://img.shields.io/github/stars/dodona-edu/dolos?style=social&color=white)](https://github.com/dodona-edu/dolos/stargazers) — Modern open-source source code plagiarism detector from Ghent University. Offers an intuitive web interface, interactive visualizations, and support for many programming languages (MIT).
+- **[copydetect](https://github.com/blingenf/copydetect)** [![GitHub stars](https://img.shields.io/github/stars/blingenf/copydetect?style=social&color=white)](https://github.com/blingenf/copydetect/stargazers) — Lightweight Python tool based on the Winnowing algorithm (same family as Stanford MOSS). Generates HTML similarity reports.
+- **[AC2](https://github.com/manuel-freire/ac2)** [![GitHub stars](https://img.shields.io/github/stars/manuel-freire/ac2?style=social&color=white)](https://github.com/manuel-freire/ac2/stargazers) — Source code plagiarism detection tool with multiple similarity algorithms and strong visualization features.
+- **[jieplag](https://github.com/thu-cs-lab/jieplag)** [![GitHub stars](https://img.shields.io/github/stars/thu-cs-lab/jieplag?style=social&color=white)](https://github.com/thu-cs-lab/jieplag/stargazers) — High-performance plagiarism detection tool written in Rust, inspired by Stanford MOSS. Supports multiple languages.
 - Stanford **MOSS** (Measure of Software Similarity) — Long-standing free academic service (not fully open-source) that many open-source tools are inspired by or re-implement.
+
 
 ### Text / Document Plagiarism Detection
 - **[Noplag](https://noplag.com/)** — Open-core plagiarism checker with an auditable open-source detection engine (Apache 2.0). Supports self-hosting of the engine and multilingual checking.
