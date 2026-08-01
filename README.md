@@ -1,5 +1,9 @@
 # Awesome-Academic-Integrity
 
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Academic Integrity Banner" width="100%">
+</p>
+
 ## Similar Projects to Academic Integrity Platforms
 
 **Academic Integrity Platforms** (plagiarism detection / originality checking tools) help educators, publishers, and institutions detect copied or unoriginal content in student papers, research articles, and code submissions. Leading commercial tools include Turnitin, Ouriginal, Copyleaks, SafeAssign, Compilatio, Unicheck, PlagScan, StrikePlagiarism, Urkund, and Originality.ai.

@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+
+    <!-- Text / Accent Gradient -->
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a78bfa" />   <!-- Violet -->
+      <stop offset="50%" stop-color="#38bdf8" />  <!-- Sky Blue -->
+      <stop offset="100%" stop-color="#4ade80" /> <!-- Emerald Green -->
+    </linearGradient>
+
+    <linearGradient id="shield-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#312e81" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- CSS Styling for Animations -->
+    <style>
+      .title-text {
+        font-family: 'Outfit', 'Inter', system-ui, sans-serif;
+        font-weight: 800;
+        font-size: 42px;
+        fill: url(#text-grad);
+      }
+      .subtitle-text {
+        font-family: 'Inter', system-ui, sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        fill: #94a3b8;
+        letter-spacing: 4px;
+      }
+      .floating-particle {
+        animation: float 8s infinite ease-in-out;
+      }
+      .pulse-shield {
+        animation: pulse 3s infinite ease-in-out;
+        transform-origin: 150px 125px;
+      }
+      .dash-flow {
+        stroke-dasharray: 8 8;
+        animation: dash 15s linear infinite;
+      }
+      @keyframes float {
+        0%, 100% { transform: translateY(0px) translateX(0px); opacity: 0.3; }
+        50% { transform: translateY(-15px) translateX(10px); opacity: 0.8; }
+      }
+      @keyframes pulse {
+        0%, 100% { transform: scale(1); filter: drop-shadow(0 0 5px rgba(129, 140, 248, 0.4)); }
+        50% { transform: scale(1.05); filter: drop-shadow(0 0 15px rgba(56, 189, 248, 0.8)); }
+      }
+      @keyframes dash {
+        to { stroke-dashoffset: -100; }
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="250" rx="16" fill="url(#bg-grad)" />
+
+  <!-- Grid Lines Pattern (Sleek Tech Vibe) -->
+  <path d="M 0,50 L 800,50 M 0,100 L 800,100 M 0,150 L 800,150 M 0,200 L 800,200 M 100,0 L 100,250 M 200,0 L 200,250 M 300,0 L 300,250 M 400,0 L 400,250 M 500,0 L 500,250 M 600,0 L 600,250 M 700,0 L 700,250" 
+        stroke="#1e293b" stroke-width="0.5" />
+
+  <!-- Decorative Animated Flowing Circle Path -->
+  <path d="M 50 125 C 200 40, 600 210, 750 125" fill="none" stroke="url(#text-grad)" stroke-width="2" class="dash-flow" opacity="0.3" />
+
+  <!-- Animated Floating Particles -->
+  <circle cx="250" cy="60" r="4" fill="#38bdf8" class="floating-particle" style="animation-delay: 0s;" />
+  <circle cx="580" cy="190" r="6" fill="#a78bfa" class="floating-particle" style="animation-delay: 2s;" />
+  <circle cx="700" cy="70" r="3" fill="#4ade80" class="floating-particle" style="animation-delay: 4s;" />
+  <circle cx="120" cy="180" r="5" fill="#f43f5e" class="floating-particle" style="animation-delay: 1s;" />
+
+  <!-- Shield Icon Group (with Pulse Animation) -->
+  <g class="pulse-shield">
+    <!-- Outer Glowing Circle -->
+    <circle cx="150" cy="125" r="55" fill="none" stroke="#38bdf8" stroke-width="1" opacity="0.3" />
+    
+    <!-- Shield Background -->
+    <path d="M 150 90 C 170 90, 185 98, 185 110 C 185 135, 150 155, 150 160 C 150 155, 115 135, 115 110 C 115 98, 130 90, 150 90 Z" 
+          fill="url(#shield-grad)" stroke="#818cf8" stroke-width="2" />
+          
+    <!-- Checkmark Inside Shield (Symbol of Academic Integrity) -->
+    <path d="M 135 125 L 145 135 L 165 115" fill="none" stroke="#4ade80" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)" />
+  </g>
+
+  <!-- Typography -->
+  <text x="240" y="125" class="title-text" filter="url(#glow)">Awesome Academic Integrity</text>
+  <text x="242" y="165" class="subtitle-text">CURATED PLATFORMS &amp; OPEN SOURCE TOOLS</text>
+
+  <!-- Sleek Accent Bar -->
+  <rect x="240" y="185" width="480" height="4" rx="2" fill="url(#text-grad)" opacity="0.8" />
+</svg>
