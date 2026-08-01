@@ -8,18 +8,19 @@ Below is a **curated list** of notable platforms and their open-source equivalen
 
 ## 🏢 SaaS / Hosted Platforms
 
-| Platform | Description | Pricing Plan | Free Tier / Limits |
-| :--- | :--- | :--- | :--- |
-| **[Turnitin](https://www.turnitin.com/)** | The dominant academic integrity platform used by universities worldwide for plagiarism detection, AI writing detection, and grading tools. | Custom institutional pricing | None |
-| **[Ouriginal](https://www.ouriginal.com/)** | European-focused plagiarism detection solution popular in higher education (formerly Urkund). | Custom institutional pricing | None |
-| **[Copyleaks](https://copyleaks.com/)** | AI-powered plagiarism and AI-content detection platform with API access. | Starts at $9.16/mo (billed annually for 1,200 pages / 300k words) | Free trial with ~20 credits (~5,000 words / 10 pages) upon signup; no permanent free tier |
-| **[SafeAssign](https://www.blackboard.com/)** | Integrated plagiarism checking tool within Blackboard Learn. | Included with Blackboard LMS license | None |
-| **[Compilatio](https://www.compilatio.net/)** | Plagiarism detection service widely used in French-speaking and European institutions. | Custom institutional pricing; individual credits start at €2.50 | None |
-| **[Unicheck](https://unicheck.com/)** | Cloud-based similarity checking platform (note: some services have evolved or been discontinued/merged). | Custom institutional pricing; individual packages start at $5.00 for 20 pages | None |
-| **[PlagScan](https://www.plagscan.com/)** | Plagiarism detection tool previously popular in education (status may vary by region). | Individual plans from $5.99 for 6,000 words | Free trial of 2,000 words (20 credits) upon signup; no permanent free tier |
-| **[StrikePlagiarism](https://strikeplagiarism.com/)** | Plagiarism detection system used in several countries. | Pay-per-document (approx. €2.50 per document) or custom institutional subscription | None |
-| **[Urkund](https://www.urkund.com/)** | Classic plagiarism detection service (now part of Ouriginal / larger portfolios). | Custom institutional pricing (merged with Ouriginal) | None |
-| **[Originality.ai](https://originality.ai/)** | AI content and plagiarism detection focused on content publishers and SEO. | Subscription starts at $14.95/mo (3,000 credits/300k words) or pay-as-you-go ($30 for 3,000 credits) | 3 free scans per day (300-word limit per scan) |
+| Platform | Description | Pricing Plan | Free Tier / Limits | Company Size (Valuation / Revenue) |
+| :--- | :--- | :--- | :--- | :--- |
+| **[SafeAssign](https://www.blackboard.com/)** | Integrated plagiarism checking tool within Blackboard Learn. | Included with Blackboard LMS license | None | ~$3.0 Billion (Parent Valuation) |
+| **[Turnitin](https://www.turnitin.com/)** | The dominant academic integrity platform used by universities worldwide for plagiarism detection, AI writing detection, and grading tools. | Custom institutional pricing | None | $1.75 Billion (Valuation) |
+| **[Ouriginal](https://www.ouriginal.com/)** | European-focused plagiarism detection solution popular in higher education (formerly Urkund). | Custom institutional pricing | None | ~$15 Million (Est. Revenue) |
+| **[Unicheck](https://unicheck.com/)** | Cloud-based similarity checking platform (note: some services have evolved or been discontinued/merged). | Custom institutional pricing; individual packages start at $5.00 for 20 pages | None | ~$10 Million (Est. Revenue) |
+| **[Copyleaks](https://copyleaks.com/)** | AI-powered plagiarism and AI-content detection platform with API access. | Starts at $9.16/mo (billed annually for 1,200 pages / 300k words) | Free trial with ~20 credits (~5,000 words / 10 pages) upon signup; no permanent free tier | ~$7.5 Million (Est. Revenue) |
+| **[PlagScan](https://www.plagscan.com/)** | Plagiarism detection tool previously popular in education (status may vary by region). | Individual plans from $5.99 for 6,000 words | Free trial of 2,000 words (20 credits) upon signup; no permanent free tier | ~$5 Million (Est. Revenue) |
+| **[Urkund](https://www.urkund.com/)** | Classic plagiarism detection service (now part of Ouriginal / larger portfolios). | Custom institutional pricing (merged with Ouriginal) | None | ~$5 Million (Est. Revenue) |
+| **[Compilatio](https://www.compilatio.net/)** | Plagiarism detection service widely used in French-speaking and European institutions. | Custom institutional pricing; individual credits start at €2.50 | None | ~$3.5 Million (Est. Revenue) |
+| **[Originality.ai](https://originality.ai/)** | AI content and plagiarism detection focused on content publishers and SEO. | Subscription starts at $14.95/mo (3,000 credits/300k words) or pay-as-you-go ($30 for 3,000 credits) | 3 free scans per day (300-word limit per scan) | ~$2.5 Million (Est. Revenue) |
+| **[StrikePlagiarism](https://strikeplagiarism.com/)** | Plagiarism detection system used in several countries. | Pay-per-document (approx. €2.50 per document) or custom institutional subscription | None | ~$2.0 Million (Est. Revenue) |
+
 
 ## 🔓 Open-Source Software
 
