@@ -36,6 +36,7 @@ Below is a **curated list** of notable platforms and their open-source equivalen
 | **[Compilatio](https://www.compilatio.net/)** | Plagiarism detection service widely used in French-speaking and European institutions. | Custom institutional pricing; individual credits start at €2.50 | None | ~$3.5 Million (Est. Revenue) |
 | **[Originality.ai](https://originality.ai/)** | AI content and plagiarism detection focused on content publishers and SEO. | Subscription starts at $14.95/mo (3,000 credits/300k words) or pay-as-you-go ($30 for 3,000 credits) | 3 free scans per day (300-word limit per scan) | ~$2.5 Million (Est. Revenue) |
 | **[StrikePlagiarism](https://strikeplagiarism.com/)** | Plagiarism detection system used in several countries. | Pay-per-document (approx. €2.50 per document) or custom institutional subscription | None | ~$2.0 Million (Est. Revenue) |
+| **[AI Code Detector](https://ai-code-detector.com/for-teachers)** | Screens student source-code submissions for AI-generation signals and reports per-file scores, highlighted snippets, and exportable reports for instructor review. Signals only; not an authorship verdict. | Freemium: Pro $9/mo (500 scans/mo, up to 50 files per batch, PDF/CSV export) or $4.99 one-off scan pack | 3 checks/day, no account required to start | n/a (independent, bootstrapped) |
 
 
 ## 🔓 Open-Source Software
